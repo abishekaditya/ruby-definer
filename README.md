@@ -4,17 +4,19 @@ A simple command line dictionary app. Currently working on a better API and an i
 
 ## Installation
 
-Put this in your shell (cmd,zsh,powershell etc.)
-    $ gem install definer
+Enter this in your shell (cmd,zsh,powershell etc.)
+    
+```gem install definer```
 
 Make sure you have installed gem and that your installation path is set in your shell.
 
 ## Usage
 
 To define any word do:
-    $define word [options]
+
+```define word [options]```
     
-    Options include -e and -p for example and part of speech respectively. Can be used seperately or together.
+Options include -e and -p for example and part of speech respectively. Can be used seperately or together.
 
 ## Development
 

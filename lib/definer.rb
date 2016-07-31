@@ -5,7 +5,7 @@ require 'optparse'
 class Define
   def define word
     begin
-      part_of_speech = example = "not found"
+      definition = part_of_speech = example = "not found"
       api_url = "http://api.pearson.com/v2/dictionaries/entries?headword="
       header_uri = URI(api_url.concat(word))
       res = Net::HTTP.get(header_uri);
